@@ -1,0 +1,16 @@
+{
+    "name": "hullmano/composer",
+    "description": "Primeiro Vez!",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Hullmano",
+            "email": "hullmano@gmail.com"            
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog":"1.0.*"
+    }
+}
+//www.php-fig.org - Manual de boas práticas do php.
