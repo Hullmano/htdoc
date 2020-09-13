@@ -6,7 +6,7 @@ class Sql extends PDO {       //esta classe criada extende da classe PDO(nativa 
 
 	public function __construct() {
 		
-		$this->conct = new PDO("mysql:dbname=dbphp7;host=localhost","root","root");  //minha conexão.
+		$this->conct = new PDO("mysql:dbname=;host=localhost","root","Strong...999");  //minha conexão.
 	}
 
 	public function query($vQuery, $vParams = array()){           //vou passar o prepare, e os param. Ex: bindParam.

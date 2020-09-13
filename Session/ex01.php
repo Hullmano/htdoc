@@ -8,4 +8,7 @@ $_SESSION["sobren"] = "Thiago";
 
 echo "Sessão Criada!";
 
+echo "<hr>";
+echo $_SESSION["nome"];
+
  ?>
